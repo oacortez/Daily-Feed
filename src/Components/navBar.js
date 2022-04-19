@@ -1,9 +1,14 @@
+import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
 
   return (
     <nav>
-      <h1 style={{color: 'black'}}>Navbar Container</h1>
+      <NavLink to='/'>
+        <button>
+          You are in home
+        </button>
+      </NavLink>
     </nav>
   )
 }
