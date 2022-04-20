@@ -1,9 +1,11 @@
+import '../Styles/Article.css'
+
 const Article = ({title, author, image}) => {
   return (
-    <div className='Cards'>
+    <div className='cards'>
       <h1>{title}</h1>
-      <h2>{author}</h2>
       <img src={image} alt='News article image'/>
+      <h2>{author}</h2>
     </div>
   )
 }

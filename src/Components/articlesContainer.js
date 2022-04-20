@@ -1,6 +1,7 @@
 import Article from './Article'
 import api from './apiCalls';
 import {useState, useEffect} from 'react'; 
+import '../Styles/articleContainer.css'
 
 const ArticleContainer = () => {
 
