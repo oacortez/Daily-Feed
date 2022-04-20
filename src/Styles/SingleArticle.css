@@ -1,0 +1,14 @@
+.single-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-card-image {
+  height: 90%;
+  width: 500px;
+}
+
+a {
+  font-size: 24px;
+}

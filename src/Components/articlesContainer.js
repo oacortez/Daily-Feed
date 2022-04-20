@@ -1,6 +1,6 @@
 import Article from './Article'
 import api from './apiCalls';
-import {useState, useEffect} from 'react'; 
+import {useState, useEffect} from 'react';
 import '../Styles/articleContainer.css'
 
 const ArticleContainer = () => {
@@ -12,12 +12,14 @@ useEffect(() => {
   .then(data => setResults(data.results))
 }, [])
 
+console.log(results)
+
 const articleDetails = results.map((article, index) => {
   console.log(article);
   return (
     <Article 
       key={index + 1}
-      id={article.created_date}
+      id={article.title}
       title={article.title}
       author={article.byline}
       image={article.multimedia[0].url}
