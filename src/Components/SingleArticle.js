@@ -21,9 +21,9 @@ const SingleArticle = () => {
   return (
     <div className="single-card-container">
       <h1>{article.title}</h1>
-      <img src={ article.multimedia && article.multimedia[0].url} alt={article.abstract}/>
+      <img src={ article.multimedia && article.multimedia[0].url}  className="single-card-image" alt={article.abstract}/>
       <h2>{article.abstract}</h2>
-      <a href={article.url}>Go to NY Times article</a>
+      <a href={article.url}>Click here to read full article</a>
     </div>
   )
 }
