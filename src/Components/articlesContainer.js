@@ -1,8 +1,29 @@
+import Article from './Article'
+import api from './apiCalls';
+import {useState, useEffect} from 'react'; 
+
+
 const ArticleContainer = () => {
+
+const [results, setResults] = useState([]);
+
+useEffect(() => {
+  api()
+  .then(data => setResults(data.results))
+}, [])
+
+const articleDetails = results.map((article, index) => {
+  return (
+    <Article 
+      key={index + 1}
+      title={article.title}
+    />
+  )
+})
 
   return (
     <div>
-      <h1>Article Container</h1>
+      {articleDetails}
     </div>
   )
 }
