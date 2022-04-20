@@ -1,21 +1,17 @@
-import './Styles/App.css';
-import api from '../src/Components/apiCalls'
 import {useState, useEffect} from 'react'; 
-import NavBar from './Components/navBar'
-import ArticleContainer from './Components/articlesContainer'
+import NavBar from './Components/navBar';
+import ArticleContainer from './Components/articlesContainer';
+import { Route, Routes} from 'react-router-dom';
+import './Styles/App.css';
 
-function App() {
-const [result, setResult] = useState()
-
-useEffect(() => {
-  api()
-    .then(data => console.log(data.results))
-}, [])
+const App = () => {
 
   return (
     <div className="App">
       <NavBar />
-      <ArticleContainer />
+      <Routes>
+        <Route exact path='/' element={<ArticleContainer/>}/>
+      </Routes>
     </div>
   )
 }

@@ -1,9 +1,15 @@
+import { NavLink } from 'react-router-dom';
+import '../Styles/navBar.css';
 
 const NavBar = () => {
 
   return (
     <nav>
-      <h1 style={{color: 'black'}}>Navbar Container</h1>
+      <NavLink to='/' className='home-link'>
+        <button className='home-title'>
+          The Daily Feed 
+        </button>
+      </NavLink>
     </nav>
   )
 }

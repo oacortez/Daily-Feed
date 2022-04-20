@@ -1,0 +1,22 @@
+nav {
+  background-color: #2A5485;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.home-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.home-title {
+  font-size: 22px;
+  height: 10vh;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 650;
+  color: white;
+}
