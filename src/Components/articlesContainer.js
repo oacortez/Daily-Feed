@@ -2,7 +2,6 @@ import Article from './Article'
 import api from './apiCalls';
 import {useState, useEffect} from 'react'; 
 
-
 const ArticleContainer = () => {
 
 const [results, setResults] = useState([]);
@@ -13,16 +12,20 @@ useEffect(() => {
 }, [])
 
 const articleDetails = results.map((article, index) => {
+  console.log(article);
   return (
     <Article 
       key={index + 1}
+      id={article.created_date}
       title={article.title}
+      author={article.byline}
+      image={article.multimedia[0].url}
     />
   )
 })
 
   return (
-    <div>
+    <div className="articles-container">
       {articleDetails}
     </div>
   )
