@@ -7,18 +7,18 @@ import api from './apiCalls'
 
 const ArticleContainer = () => {
 
-const [results, setResults] = useState([]);
-const [ currentArticles, setCurrentArticles ] = useState([]);
+const [allArticles, setAllArticles] = useState([]);
+const [ filterArticles, setFilterArticles ] = useState([]);
 
   useEffect(() => {
     api()
     .then(data => {
-      setResults(data.results)
-      setCurrentArticles(data.results)
+      setAllArticles(data.results)
+      setFilterArticles(data.results)
     })
   }, [])
 
-const articleDetails = results.map((article, index) => {
+const articleDetails = allArticles.map((article, index) => {
   return (
     <Article 
       key={index + 1}
@@ -29,10 +29,10 @@ const articleDetails = results.map((article, index) => {
     />
   )
 })
-console.log(results);
+
   return (
     <>
-      <NavBar news={currentArticles} setFilter={setResults}/>
+      <NavBar news={filterArticles} setFilter={setAllArticles}/>
       <div className="articles-container">
         {articleDetails}
       </div>
