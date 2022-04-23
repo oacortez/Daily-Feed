@@ -52,5 +52,3 @@ const filterArticles = (event) => {
 }
 
 export default NavBar;
-
-
