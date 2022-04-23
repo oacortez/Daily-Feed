@@ -6,7 +6,6 @@ import '../Styles/SingleArticle.css';
 const SingleArticle = () => {
   const [ article, setArticle ] = useState({})
   const { id } = useParams()
-  console.log(article);
 
   useEffect(() => {
     api()
@@ -17,7 +16,6 @@ const SingleArticle = () => {
       setArticle(currentArticle)
     })
   }, [])
-
 
   return (
     <div className="single-card-container">
