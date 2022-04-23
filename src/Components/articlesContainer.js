@@ -1,21 +1,24 @@
 import Article from './Article'
-import api from './apiCalls';
-import {useState, useEffect} from 'react';
 import '../Styles/articleContainer.css'
+import NavBar from './navBar';
+import {useState, useEffect} from 'react';
+import api from './apiCalls'
+
 
 const ArticleContainer = () => {
 
 const [results, setResults] = useState([]);
+const [ currentArticles, setCurrentArticles ] = useState([]);
 
-useEffect(() => {
-  api()
-  .then(data => setResults(data.results))
-}, [])
-
-console.log(results)
+  useEffect(() => {
+    api()
+    .then(data => {
+      setResults(data.results)
+      setCurrentArticles(data.results)
+    })
+  }, [])
 
 const articleDetails = results.map((article, index) => {
-  console.log(article);
   return (
     <Article 
       key={index + 1}
@@ -26,11 +29,14 @@ const articleDetails = results.map((article, index) => {
     />
   )
 })
-
+console.log(results);
   return (
-    <div className="articles-container">
-      {articleDetails}
-    </div>
+    <>
+      <NavBar news={currentArticles} setFilter={setResults}/>
+      <div className="articles-container">
+        {articleDetails}
+      </div>
+    </>
   )
 }
 
