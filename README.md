@@ -84,6 +84,7 @@ https://developer.nytimes.com/apis
 
 ## Wireframes and projectboard
 [Figma](https://www.figma.com/file/Nb7QEsfMd7tVPiYzcpqLyw/Daily?node-id=0%3A1)
+
 [GitHub Project board](https://github.com/oacortez/Daily-Feed/projects/1)
 
 
