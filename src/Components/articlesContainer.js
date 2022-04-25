@@ -4,7 +4,6 @@ import NavBar from './navBar';
 import {useState, useEffect} from 'react';
 import api from './apiCalls'
 
-
 const ArticleContainer = () => {
 
 const [allArticles, setAllArticles] = useState([]);
@@ -13,10 +12,10 @@ const [ filterArticles, setFilterArticles ] = useState([]);
   useEffect(() => {
     api()
     .then(data => {
-      setAllArticles(data.results)
-      setFilterArticles(data.results)
+      setAllArticles(data.results);
+      setFilterArticles(data.results);
     })
-  }, [])
+  }, []);
 
 const articleDetails = allArticles.map((article, index) => {
   return (
@@ -27,8 +26,8 @@ const articleDetails = allArticles.map((article, index) => {
       author={article.byline}
       image={article.multimedia[0].url}
     />
-  )
-})
+  );
+});
 
   return (
     <>
