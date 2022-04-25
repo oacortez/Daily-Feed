@@ -22,9 +22,13 @@ To run this app locally:
 
 fork this repository
 run git clone `git clone git@github.com:oacortez/Daily-Feed.git` in your command line
+
 Run cd `Daily-Feed` to navigate into the repository
+
 Run npm `install`
+
 Run `npm start`
+
 Visit `http://localhost:3000/` in your browser to view the local app!
 
 ## Project Goals
