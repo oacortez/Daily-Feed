@@ -49,25 +49,24 @@ View project spec [Here](https://mod4.turing.edu/projects/take_home/)
 
 As a user I am able to view all articles
 
-![Main-page-view]
 <img width="1437" alt="Screen Shot 2022-04-25 at 3 54 37 PM" src="https://user-images.githubusercontent.com/61717746/165181731-f8a199c4-490f-44ea-89ba-b56f4dbc6d09.png">
 
 **Filter by section:**
 
 As a user I am able to filter articles by sections available
 
-![Filter-by-section](https://media.giphy.com/media/3q14xy4OYSZWcFHl2z/giphy.gif)
+<img width="1437" alt="Screen Shot 2022-04-25 at 3 54 50 PM" src="https://user-images.githubusercontent.com/61717746/165181864-582a7483-6f10-4e97-9433-26a9671d613a.png">
 
 **View detailed page**
 
 As a user I should be able to click on `View article` and redirects me to that single article view
 
-![view-detailed-page](https://media.giphy.com/media/snw4TWqiWlqWXn1eRC/giphy.gif)
+<img width="1430" alt="Screen Shot 2022-04-25 at 3 55 05 PM" src="https://user-images.githubusercontent.com/61717746/165181916-312f9e97-6146-4697-91ee-257eeaa280c4.png">
 
 **Error view** 
 If the user goes to an incorrect path it will display a error message
 
-![error-handling](https://media.giphy.com/media/0Bc93ED0hc2NdZMSUv/giphy.gif)
+<img width="1433" alt="Screen Shot 2022-04-25 at 3 55 41 PM" src="https://user-images.githubusercontent.com/61717746/165181939-bed958bb-5b37-4e37-931d-d790fe9605f4.png">
 
 
 ## Challenges
