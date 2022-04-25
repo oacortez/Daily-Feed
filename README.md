@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# The Daily Feed
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents   
 
-In the project directory, you can run:
+- [Abstract](#abstract)
+- [Installation and Setup](#installation-and-setup)
+- [Project Goals](#project-goals)
+- [Project Specs](#project-specs)
+- [Challenges](#challenges)
+- [Future Iterations](#future-iterations)
+- [api](#api)
+- [Tech Stack](#tech-stack)
+- [Contributors](#contributors)
 
-### `npm start`
+## Abstract
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project utilizes the NYT Top Stories API to generate up-to-date stories from a variety of different categories. A user can filter for a certain category and visit the NYT website to view the rest of the story if interested.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalation and Setup
+To run this app locally:
 
-### `npm test`
+fork this repository
+run git clone git clone git@github.com:GraceGardner/newsreader.git in your command line
+Run cd newsreader to navigate into the repository
+Run npm install
+Run npm start
+Visit http://localhost:3000/ in your browser to view the local app!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Goals
 
-### `npm run build`
+- Render a list of articles
+- Be able to render a single view for each article
+- Articles in the list must link to the detailed article view
+- Filter functionality
+- Complete in 8 hours or less
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Specs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**Main page view:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+As a user I am able to view all game deals
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Main-page-view](https://media.giphy.com/media/0f3e04b5Ub1XkQqtge/giphy.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Favorite and unfavorite user cards:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+As a user I am able to favorite and unfavorite an item that I choose
 
-## Learn More
+![Favorite-unfavorite-deals](https://media.giphy.com/media/3q14xy4OYSZWcFHl2z/giphy.gif)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Buy game**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As a user I should be able to buy item. When buying item it will redirect me to the online store that carries that game deal
 
-### Code Splitting
+![Buy-game](https://media.giphy.com/media/snw4TWqiWlqWXn1eRC/giphy.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Favorites page view**
 
-### Analyzing the Bundle Size
+As a user I am able to view all my favorite game deals I saved
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Favorites-page-view](https://media.giphy.com/media/m0uzhEIzlJQyiad52M/giphy.gif)
 
-### Making a Progressive Web App
+**Error handling**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If an error occurs as a user I am notified with a message, upon pressing 'Okay' I am taken to the home page.
 
-### Advanced Configuration
+![error-handling](https://media.giphy.com/media/0Bc93ED0hc2NdZMSUv/giphy.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Mobile view:**
 
-### Deployment
+As a user I am able view this application on a mobile phone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![mobile-view](https://media.giphy.com/media/mGkmte60rrsXygQ4sB/giphy.gif)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Challenges
+
+- Able to fetch an API that I have never used before
+- Be able to hide api keys to env file properly
+
+## Future Iterations
+
+- Add a login page so that the app can be used for users.
+- Add a search engine
+
+## api
+https://developer.nytimes.com/apis
+
+
+## Tech Stack
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+
+## Contributors
+
+[Oscar Cortez](https://github.com/oacortez)
