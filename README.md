@@ -49,7 +49,8 @@ View project spec [Here](https://mod4.turing.edu/projects/take_home/)
 
 As a user I am able to view all articles
 
-![Main-page-view](<img width="1437" alt="Screen Shot 2022-04-25 at 3 54 37 PM" src="https://user-images.githubusercontent.com/61717746/165181731-f8a199c4-490f-44ea-89ba-b56f4dbc6d09.png">)
+![Main-page-view]
+<img width="1437" alt="Screen Shot 2022-04-25 at 3 54 37 PM" src="https://user-images.githubusercontent.com/61717746/165181731-f8a199c4-490f-44ea-89ba-b56f4dbc6d09.png">
 
 **Filter by section:**
 
