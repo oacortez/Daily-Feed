@@ -64,6 +64,7 @@ As a user I should be able to click on `View article` and redirects me to that s
 <img width="1430" alt="Screen Shot 2022-04-25 at 3 55 05 PM" src="https://user-images.githubusercontent.com/61717746/165181916-312f9e97-6146-4697-91ee-257eeaa280c4.png">
 
 **Error view** 
+
 If the user goes to an incorrect path it will display a error message
 
 <img width="1433" alt="Screen Shot 2022-04-25 at 3 55 41 PM" src="https://user-images.githubusercontent.com/61717746/165181939-bed958bb-5b37-4e37-931d-d790fe9605f4.png">
