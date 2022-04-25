@@ -10,6 +10,7 @@
 - [Challenges](#challenges)
 - [Future Iterations](#future-iterations)
 - [api](#api)
+- [Wireframes and projectboard](#wireframes-and-projectboard)
 - [Tech Stack](#tech-stack)
 - [Contributors](#contributors)
 
@@ -42,42 +43,30 @@ Visit `http://localhost:3000/` in your browser to view the local app!
 
 ## Project Specs
 
+View project spec [Here](https://mod4.turing.edu/projects/take_home/)
 
 **Main page view:**
 
-As a user I am able to view all game deals
+As a user I am able to view all articles
 
 ![Main-page-view](https://media.giphy.com/media/0f3e04b5Ub1XkQqtge/giphy.gif)
 
-**Favorite and unfavorite user cards:**
+**Filter by section:**
 
-As a user I am able to favorite and unfavorite an item that I choose
+As a user I am able to filter articles by sections available
 
-![Favorite-unfavorite-deals](https://media.giphy.com/media/3q14xy4OYSZWcFHl2z/giphy.gif)
+![Filter-by-section](https://media.giphy.com/media/3q14xy4OYSZWcFHl2z/giphy.gif)
 
-**Buy game**
+**View detailed page**
 
-As a user I should be able to buy item. When buying item it will redirect me to the online store that carries that game deal
+As a user I should be able to click on `View article` and redirects me to that single article view
 
-![Buy-game](https://media.giphy.com/media/snw4TWqiWlqWXn1eRC/giphy.gif)
+![view-detailed-page](https://media.giphy.com/media/snw4TWqiWlqWXn1eRC/giphy.gif)
 
-**Favorites page view**
 
-As a user I am able to view all my favorite game deals I saved
-
-![Favorites-page-view](https://media.giphy.com/media/m0uzhEIzlJQyiad52M/giphy.gif)
-
-**Error handling**
-
-If an error occurs as a user I am notified with a message, upon pressing 'Okay' I am taken to the home page.
+If the user goes to an incorrect path it will display a error message
 
 ![error-handling](https://media.giphy.com/media/0Bc93ED0hc2NdZMSUv/giphy.gif)
-
-**Mobile view:**
-
-As a user I am able view this application on a mobile phone
-
-![mobile-view](https://media.giphy.com/media/mGkmte60rrsXygQ4sB/giphy.gif)
 
 
 ## Challenges
@@ -92,6 +81,10 @@ As a user I am able view this application on a mobile phone
 
 ## api
 https://developer.nytimes.com/apis
+
+## Wireframes and projectboard
+[Figma](https://www.figma.com/file/Nb7QEsfMd7tVPiYzcpqLyw/Daily?node-id=0%3A1)
+[GitHub Project board](https://github.com/oacortez/Daily-Feed/projects/1)
 
 
 ## Tech Stack
