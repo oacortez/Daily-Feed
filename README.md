@@ -17,7 +17,7 @@
 
 This project utilizes the NYT Top Stories API to generate up-to-date stories from a variety of different categories. A user can filter for a certain category and visit the NYT website to view the rest of the story if interested.
 
-## Instalation and Setup
+## Installation and Setup
 To run this app locally:
 
 fork this repository
